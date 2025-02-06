@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33b71fae31e6c7d438e8566dc713e666, type: 3}
+  m_Name: gs_traveling_r_pu_pluie
+  m_EditorClassIdentifier: 
+  m_FormatVersion: 20231020
+  m_SplatCount: 1126726
+  m_BoundsMin: {x: -126.61678, y: -126.61893, z: -126.61793}
+  m_BoundsMax: {x: 126.61808, y: 126.61672, z: 126.61793}
+  m_DataHash:
+    serializedVersion: 2
+    Hash: d6b9b5f0406525e62f35a523eb3037fb
+  m_PosFormat: 0
+  m_ScaleFormat: 0
+  m_SHFormat: 0
+  m_ColorFormat: 0
+  m_PosData: {fileID: 4900000, guid: f6b55c50919763a45b180c971353ea18, type: 3}
+  m_ColorData: {fileID: 4900000, guid: efb1f21725b917d4bb2b1e2dfb447b3f, type: 3}
+  m_OtherData: {fileID: 4900000, guid: 1279ae362245ce84588571e18ff4394e, type: 3}
+  m_SHData: {fileID: 4900000, guid: 427d7188d6263ba4da8cf1042a93eb13, type: 3}
+  m_ChunkData: {fileID: 0}
+  m_Cameras: []

@@ -218,6 +218,9 @@ namespace GaussianSplatting.Runtime
             DebugBoxes,
             DebugChunkBounds,
         }
+
+        public bool m_IsInitialized = false;
+
         public GaussianSplatAsset m_Asset;
 
         [Range(0.1f, 2.0f)] [Tooltip("Additional scaling factor for the splats")]
@@ -460,6 +463,11 @@ namespace GaussianSplatting.Runtime
 
         public void OnEnable()
         {
+            InitializeGS();
+        }
+
+        private void InitializeGS()
+        {
             m_FrameCounter = 0;
             if (m_ShaderSplats == null || m_ShaderComposite == null || m_ShaderDebugPoints == null || m_ShaderDebugBoxes == null || m_CSSplatUtilities == null)
                 return;
@@ -467,10 +475,10 @@ namespace GaussianSplatting.Runtime
             if (!SystemInfo.supportsComputeShaders)
                 return;
 
-            m_MatSplats = new Material(m_ShaderSplats) {name = "GaussianSplats"};
-            m_MatComposite = new Material(m_ShaderComposite) {name = "GaussianClearDstAlpha"};
-            m_MatDebugPoints = new Material(m_ShaderDebugPoints) {name = "GaussianDebugPoints"};
-            m_MatDebugBoxes = new Material(m_ShaderDebugBoxes) {name = "GaussianDebugBoxes"};
+            m_MatSplats = new Material(m_ShaderSplats) { name = "GaussianSplats" };
+            m_MatComposite = new Material(m_ShaderComposite) { name = "GaussianClearDstAlpha" };
+            m_MatDebugPoints = new Material(m_ShaderDebugPoints) { name = "GaussianDebugPoints" };
+            m_MatDebugBoxes = new Material(m_ShaderDebugBoxes) { name = "GaussianDebugBoxes" };
 
             if (GetSortMode() == SortMode.Radix)
                 m_Sorter = new GpuSortingRadix(m_CSSplatUtilitiesRadix);
@@ -607,6 +615,11 @@ namespace GaussianSplatting.Runtime
         }
 
         public void OnDisable()
+        {
+            UnInitializeGS();
+        }
+
+        private void UnInitializeGS()
         {
             DisposeResourcesForAsset();
             GaussianSplatRenderSystem.instance.UnregisterSplat(this);

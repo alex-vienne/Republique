@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33b71fae31e6c7d438e8566dc713e666, type: 3}
+  m_Name: bimbo
+  m_EditorClassIdentifier: 
+  m_FormatVersion: 20231020
+  m_SplatCount: 11097
+  m_BoundsMin: {x: -0.25075334, y: 0.096168414, z: -0.5289929}
+  m_BoundsMax: {x: 0.6126724, y: 1.4789608, z: 0.3926796}
+  m_DataHash:
+    serializedVersion: 2
+    Hash: 7830f6a58deb0db00271fa461927edc5
+  m_PosFormat: 0
+  m_ScaleFormat: 0
+  m_SHFormat: 0
+  m_ColorFormat: 0
+  m_PosData: {fileID: 4900000, guid: 81c0a2b3bc531a040ba272780e2b5007, type: 3}
+  m_ColorData: {fileID: 4900000, guid: f2de3ebe3f0b3764f81e9f97a80caa6a, type: 3}
+  m_OtherData: {fileID: 4900000, guid: ebf58b062420f7647b224617c648833c, type: 3}
+  m_SHData: {fileID: 4900000, guid: eabe8fbfa32f910429a0df0606a794dd, type: 3}
+  m_ChunkData: {fileID: 0}
+  m_Cameras: []

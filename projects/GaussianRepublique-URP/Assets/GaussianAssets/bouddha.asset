@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33b71fae31e6c7d438e8566dc713e666, type: 3}
+  m_Name: bouddha
+  m_EditorClassIdentifier: 
+  m_FormatVersion: 20231020
+  m_SplatCount: 105707
+  m_BoundsMin: {x: -0.65242964, y: -0.37916172, z: -0.49502552}
+  m_BoundsMax: {x: 0.4118842, y: 1.6123537, z: 0.35051942}
+  m_DataHash:
+    serializedVersion: 2
+    Hash: 6f059ece7a02a4ae91b33d5755ec1689
+  m_PosFormat: 0
+  m_ScaleFormat: 0
+  m_SHFormat: 0
+  m_ColorFormat: 0
+  m_PosData: {fileID: 4900000, guid: b27840991d9de7d4cb9ebaf02e6bfd5d, type: 3}
+  m_ColorData: {fileID: 4900000, guid: 56a7bdab44927304381ea65b3f0cea6f, type: 3}
+  m_OtherData: {fileID: 4900000, guid: 468b961a8d1617747a7f089ac59f295c, type: 3}
+  m_SHData: {fileID: 4900000, guid: 61c89768f22b0cf4a9d9b3bc37192e7c, type: 3}
+  m_ChunkData: {fileID: 0}
+  m_Cameras: []
