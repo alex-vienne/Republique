@@ -5,6 +5,8 @@
 
 /.vs/*
 /builds/*
+/projects/GaussianRepublique-URP/Build/*
+/projects/GaussianRepublique-URP/BuildTeddyBear/*
 /images/*
 /Shot-*.png
 
